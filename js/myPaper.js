@@ -25,12 +25,28 @@ project.currentStyle = {
     fillColor: 'black'
 };
 
+window.onresize = resize;
 
+
+function resize() {
+    console.log("haa! resized");
+    clearPaper();
+    drawCompanies();
+};
+
+function clearPaper(){
+    for (var i = circlePaths.length-1; i >=0 ; i--) {
+        var ball = circlePaths[i];
+        ball.remove();
+        circlePaths.pop(ball);
+    }
+    
+}
 var ballPositions = new Array();
-
+var g_companyNames = new Array();
 $.get("data/investments.json", function(data) {
-    var am = Math.sqrt((g_w*g_h/data.investments.length))/1.3;
-    var x_am = Math.sqrt((g_w*g_h/data.investments.length))/1.3;
+    var am = Math.sqrt((g_w * g_h / data.investments.length)) / 1.3;
+    var x_am = Math.sqrt((g_w * g_h / data.investments.length)) / 1.3;
     var x = x_am, y = am;
     var maxAmount = data.investments[0].amount, minAmount = data.investments[0].amount;
     data.investments.forEach(function(row) {
@@ -38,17 +54,18 @@ $.get("data/investments.json", function(data) {
         minAmount = Math.min(row.amount, minAmount);
     });
     data.investments.forEach(function(row) {
-        ballPositions.push(new Company(row.name, row.amount, [x, y], 1 + row.amount / maxAmount * 50));
-        x += x_am  ;
+        var comp = new Company(row.name, row.amount, [x, y], 1 + row.amount / maxAmount * 50);
+        ballPositions.push(comp);
+        g_companyNames.push(data.investments[0]);
+        x += x_am;
         if (x >= g_w - 50) {
             x = x_am;
             y += am;
         }
     });
-    
+
 //    test();
     drawCompanies();
-    onMouseMove();
 });
 
 //var ddd;
@@ -102,20 +119,23 @@ largeCircle.position = [500, 500];
 //circlePaths.push(largeCircle);
 var left = true;
 function onMouseMove(event) {
-    largeCircle.position = event.point;
-    if (event.point.x >= g_w / 2) {
-        if (!left) {
-            $("#info").animate({top: 30, left: 30, position: 'absolute'}, 1000);
-            left = true;
+    if (event) {
+        largeCircle.position = event.point;
+        console.log(g_w + " " +event.point.x);
+        if (event.point.x >= (g_w -450)) {
+            if (!left) {
+                $("#info").animate({top: 30, left: 30, position: 'absolute'}, 1000);
+                left = true;
+            }
         }
-    }
-    else {
-        if (left) {
-            $("#info").animate({top: 30, left: g_w - 430, position: 'absolute'}, 1000);
-            left = false;
+        else if (event.point.x <= 450) {
+            if (left) {
+                $("#info").animate({top: 30, left: g_w - 430, position: 'absolute'}, 1000);
+                left = false;
+            }
         }
+        generateConnections(circlePaths);
     }
-    generateConnections(circlePaths);
 }
 var connections = new Group();
 function generateConnections(paths) {
@@ -126,8 +146,9 @@ function generateConnections(paths) {
 //        for (var j = i - 1; j >= 0; j--) {
         if (largeCircle === paths[i])
             continue;
-        var path = metaball(paths[i], largeCircle, 0.5, handle_len_rate, 150);
+        var path = metaball(paths[i], largeCircle, 0.5, handle_len_rate, 100);
         if (path) {
+
             var ball = ballPositions[i];
             var unit = " Millions";
             var value = ball.amount;
@@ -137,6 +158,14 @@ function generateConnections(paths) {
             else
                 unit = " Thousands";
             $("#info .detail").append("<h4 class='organisation'>" + ball.name + " : " + "</h4><h4 class = 'amount'> £" + value + "</h4>");
+            var s = g_companyNames[i].extra_info;
+            if (s) {
+                console.log(s[1]);
+                $("#companyInfo").text(s[1]);
+            }
+            else
+                $("#companyInfo").text("aa");
+
             connections.appendTop(path);
             path.removeOnMove();
         }
