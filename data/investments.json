@@ -1,0 +1,329 @@
+{
+  "investments": [
+    {
+    "name":"Baillie Gifford EM Lead Co Fund C"
+    ,"amount" : 16239003,
+    "info":[{"funds":[114500000000,"http://www.bailliegifford.com/documentgateway.aspx?_id=32971a11-588d-450e-9bc7-01bcc9805dcf"]
+            ,"definition":["Baillie Gifford manages money on behalf of some of the world’s largest institutional investors. Ithird largest manager of investment trusts in the UK, managing a range of trusts with total net assets of over £4.9 billion." , "http://www.bailliegifford.com/documentgateway.aspx?_id=32971a11-588d-450e-9bc7-01bcc9805dcf"]
+            }],
+    
+    "type":"UK Open Ended Investment Company",
+    "clicks":"",
+    "desc":"Searched on google for  Baillie Gifford EM Lead Co Fund C, found out about: Baillie Gifford Savings Management Limited ",
+    "registrar" : "Baillie Gifford Savings Management Limited",
+    "morningstarAPI" : "http://www.morningstarcommodity.com/products/web-services/docs/WS%20API%20User%20Guide.pdf",
+    "urls": ["http://www.trustnet.com/Factsheets/Factsheet.aspx?fundCode=B4F60","http://www.ft.com/cms/s/0/30b69fe4-8155-11e4-b956-00144feabdc0.html"],
+    "time":34.54
+  },{
+    "name":"Baillie Gifford Dev Asia Pacific Fund"
+    ,"amount" : 12118078   
+  },{
+    "name":"Baillie Gifford Emerging Mkts Gwth"
+    ,"amount" : 7877331
+  },{
+    "name":"Baillie Gifford British Smaller Cos Fund"
+    ,"amount" : 6151082 
+  },{
+    "name":"Royal Dutch Shell B Shares"
+    ,"amount" : 3812340
+  },{
+    "name":"BHP Billiton"
+    ,"amount" : 3449790    
+  },{
+    "name":"BG Group"
+    ,"amount" : 3424224
+  },{
+    "name":"Prudential"
+    ,"amount" : 3350125
+  },{
+    "name":"Standard Chartered"
+    ,"amount" : 3278198
+  },{
+    "name":"SABMiller"
+    ,"amount" : 3262875
+  },{
+    "name":"Rio Tinto"
+    ,"amount" : 3213023
+  },{
+    "name":"Unilever"
+    ,"amount" : 3049774
+  },{
+    "name":"Ashtead Group"
+    ,"amount" : 3012236
+  },{
+    "name":"St. James's Place"
+    ,"amount" : 2764619
+  },{
+    "name":"Pearson"
+    ,"amount" : 2545884
+  },{
+    "name":"Petrofac"
+    ,"amount" : 2442842
+  },{
+    "name":"Bunzl"
+    ,"amount" : 2316664 
+  },{
+    "name":"HSBC"
+    ,"amount" : 2265069
+  },{
+    "name":"Investor B"
+    ,"amount" : 2250676
+  },{
+    "name":"Scottish & Southern Energy"
+    ,"amount" : 2212080
+  },{
+    "name":"ARM Holdings"
+    ,"amount" : 2105088
+  },{
+    "name":"Enquest"
+    ,"amount" : 2039268
+  },{
+    "name":"Tesco"
+    ,"amount" : 2000544
+  },{
+    "name":"Travis Perkins"
+    ,"amount" : 1962458
+  },{
+    "name":"Bodycote"
+    ,"amount" : 1945206
+  },{
+    "name":"Michael Page Intl."
+    ,"amount" : 1884051
+  },{
+    "name":"Hargreaves Lansdown"
+    ,"amount" : 1864169
+  },{
+    "name":"Legal & General"
+    ,"amount" : 1856400
+  },{
+    "name":"Spirax-Sarco"
+    ,"amount" : 1848420
+  },{
+    "name":"Aggreko"
+    ,"amount" : 1788146
+  },{
+    "name":"Burberry Group"
+    ,"amount" : 1746927
+  },{
+    "name":"Wood Group (John) plc"
+    ,"amount" : 1735260
+  },{
+    "name":"IMI"
+    ,"amount" : 1718999 
+  },{
+    "name":"Roche Holding"
+    ,"amount" : 1713739
+  },{
+    "name":"Hiscox plc"
+    ,"amount" : 1699542
+  },{
+    "name":"GBL"
+    ,"amount" :1695431 
+  },{
+    "name":"Johnson Matthey "
+    ,"amount" : 1681923
+  },{
+    "name":"Amlin"
+    ,"amount" : 1670583
+  },{
+    "name":"Intermediate Capital Group"
+    ,"amount" : 1668796
+  },{
+    "name":"Svenska Handelsbanken"
+    ,"amount" : 1625609
+  },{
+    "name":"Jardine Lloyd Thompson"
+    ,"amount" : 1609728
+  },{
+    "name":"Serco Group"
+    ,"amount" : 1603930
+  },{
+    "name":"Atlas Copco B"
+    ,"amount" : 1572336
+  },{
+    "name":"Weir Group"
+    ,"amount" : 1533264
+  },{
+    "name":"Halma"
+    ,"amount" : 1519695
+  },{
+    "name":"Meggitt"
+    ,"amount" : 1467000
+  },{
+    "name":"Total"
+    ,"amount" : 1455361
+  },{
+    "name":"Rightmove"
+    ,"amount" : 1392920
+  },{
+    "name":"Jupiter Fund Management"
+    ,"amount" : 1359567
+  },{
+    "name":"Monsanto Company"
+    ,"amount" : 1342277
+  },{
+    "name":"Inchcape"
+    ,"amount" : 1288361
+  },{
+    "name":"Hansteen Holdings"
+    ,"amount" : 1279903
+  },{
+    "name":"Ultra Electronics Hdg."
+    ,"amount" : 1244672
+  },{
+    "name":"Diploma"
+    ,"amount" : 1221564
+  },{
+    "name":"Victrex"
+    ,"amount" : 1140974
+  },{
+    "name":"IG Group Holdings"
+    ,"amount" : 1092150
+  },{
+    "name":"O'Reilly Automotive"
+    ,"amount" : 1078211
+  },{
+    "name":"Premier Oil"
+    ,"amount" : 1076800
+  },{
+    "name":"Brown-Forman B"
+    ,"amount" : 1033362
+  },{
+    "name":"Bellway"
+    ,"amount" : 989559
+  },{
+    "name":"eBay"
+    ,"amount" : 959383
+  },{
+    "name":"Progressive"
+    ,"amount" : 948780
+  },{
+    "name":"Fairfax Financial Holdings"
+    ,"amount" : 935309
+  },{
+    "name":"Pepsico"
+    ,"amount" : 873740
+  },{
+    "name":"Dia"
+    ,"amount" :799326 
+  },{
+    "name":"Berkshire Hathaway B"
+    ,"amount" : 790221
+  },{
+    "name":"Jeronimo Martins"
+    ,"amount" : 757826
+  },{
+    "name":"Colgate-Palmolive"
+    ,"amount" : 658560
+  },{
+    "name":"Hexpol AB"
+    ,"amount" : 645090
+  },{
+    "name":"Hellenic Bottling'B'"
+    ,"amount" : 644550
+  },{
+    "name":"Alfa Laval"
+    ,"amount" : 629505
+  },{
+    "name":"Harley-Davidson"
+    ,"amount" : 627844
+  },{
+    "name":"Schindler PC"
+    ,"amount" :621009 
+  },{
+    "name":"Xilinx"
+    ,"amount" : 616097
+  },{
+    "name":"Colruyt"
+    ,"amount" : 608273
+  },{
+    "name":"M&T Bank"
+    ,"amount" : 604390
+  },{
+    "name":"Johnson & Johnson"
+    ,"amount" : 604270
+  },{
+    "name":"Deutsche Borse"
+    ,"amount" : 603391
+  },{
+    "name":"US Bancorp"
+    ,"amount" : 585766
+  },{
+    "name":"CF Alba"
+    ,"amount" : 572749
+  },{
+    "name":"Jyske Bank"
+    ,"amount" : 542914
+  },{
+    "name":"EOG Resources"
+    ,"amount" : 511175
+  },{
+    "name":"Celesio AG"
+    ,"amount" : 497255
+  },{
+    "name":"Mettler-Toledo"
+    ,"amount" : 480426
+  },{
+    "name":"Waters"
+    ,"amount" : 480111
+  },{
+    "name":"Bristol Myers Squibb"
+    ,"amount" : 474645
+  },{
+    "name":"Geberit"
+    ,"amount" : 474026
+  },{
+    "name":"Apache Corp"
+    ,"amount" : 471338
+  },{
+    "name":"Titan Cement Cr"
+    ,"amount" : 458257
+  },{
+    "name":"Konecranes"
+    ,"amount" : 458159
+  },{
+    "name":"Life Technologies Corp"
+    ,"amount" : 455866
+  },{
+    "name":"Home Depot"
+    ,"amount" : 451499
+  },{
+    "name":"Wal-Mart Stores"
+    ,"amount" : 441868
+  },{
+    "name":"L'Oreal"
+    ,"amount" : 425385
+  },{
+    "name":"Ryanair Holdings"
+    ,"amount" : 383374
+  },{
+    "name":"TripAdvisor"
+    ,"amount" : 370064
+  },{
+    "name":"Sofina"
+    ,"amount" : 257722
+  },{
+    "name":"Wellpoint Inc"
+    ,"amount" : 237459
+  },{
+    "name":"Fastenal"
+    ,"amount" : 225278
+  },{
+    "name":"Watsco"
+    ,"amount" : 115472
+  },{
+    "name":"Seattle Genetics"
+    ,"amount" : 75644
+  },{
+    "name":"Markel Corp"
+    ,"amount" : 25597
+  },{
+    "name":"Baillie Gifford Investment Grade Bond"
+    ,"amount" : 38958436
+  },{
+    "name":"Legal & General High Income Trust"
+    ,"amount" : 19407391
+  }
+  ],
+  "average-record-entry-time": 7
+}
