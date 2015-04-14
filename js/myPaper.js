@@ -20,7 +20,9 @@
  */
 
 
+function onFrame(event) {
 
+}
 project.currentStyle = {
     fillColor: 'black'
 };
@@ -42,6 +44,7 @@ function clearPaper(){
     }
     
 }
+
 var ballPositions = new Array();
 var g_companyNames = new Array();
 $.get("data/investments.json", function(data) {
@@ -66,6 +69,7 @@ $.get("data/investments.json", function(data) {
 
 //    test();
     drawCompanies();
+    generateConnections(circlePaths);
 });
 
 //var ddd;
