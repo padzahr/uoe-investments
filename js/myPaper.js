@@ -161,7 +161,7 @@ function generateConnections(paths) {
                 unit = " Millions";
             else
                 unit = " Thousands";
-            $("#info .detail").append("<h4 class='organisation'>" + ball.name + " : " + "</h4><h4 class = 'amount'> £" + value + " Millions</h4>");
+            $("#info .detail").append("<h4 class='organisation'>" + ball.name + " : " + "</h4><h4 class = 'amount'> £" + value + " Million</h4>");
             var s = g_companyNames[i].extra_info;
             if (s) {
                 console.log(s[1]);
