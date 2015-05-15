@@ -47,7 +47,7 @@ function clearPaper(){
 
 var ballPositions = new Array();
 var g_companyNames = new Array();
-$.get("data/investments.json", function(data) {
+$.get("data/investments2015.json", function(data) {
     var am = Math.sqrt((g_w * g_h / data.investments.length)) / 1.3;
     var x_am = Math.sqrt((g_w * g_h / data.investments.length)) / 1.3;
     var x = x_am, y = am;
@@ -147,12 +147,10 @@ function generateConnections(paths) {
     connections.children = [];
     $("#info .detail").html("");
     for (var i = 0; i < paths.length; i++) {
-//        for (var j = i - 1; j >= 0; j--) {
         if (largeCircle === paths[i])
             continue;
         var path = metaball(paths[i], largeCircle, 0.5, handle_len_rate, 100);
         if (path) {
-
             var ball = ballPositions[i];
             var unit = " Millions";
             var value = ball.amount/1000000;
@@ -169,11 +167,9 @@ function generateConnections(paths) {
             }
             else
                 $("#companyInfo").text("aa");
-
             connections.appendTop(path);
             path.removeOnMove();
         }
-//        }
     }
 }
 
